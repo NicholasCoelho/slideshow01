@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Slideshow</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <p>SlideShow do Nicholas
+	<div class="owl-carousel owl-theme">
+		<div><img src="https://wallpaperaccess.com/full/260442.jpg" width="800" height="400"></div>
+		<div><img src="https://th.bing.com/th/id/R.9ae1384ab9009a94285e6405c0c56b81?rik=Skql9%2bJ1SOKAgg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f4%2fb%2f478651.jpg&ehk=Z%2bAnz2T3UNP7da6Meqm%2fux68laDqQwCIBoSviywBg68%3d&risl=&pid=ImgRaw&r=0" width="800" height="400"></div>
+		<div><img src="https://th.bing.com/th/id/R.26519261adf8f8c62f8f115375d512b0?rik=AwOWJnPJBpjgDQ&pid=ImgRaw&r=0" width="800" height="400"></div>
+		<div><img src="https://th.bing.com/th/id/R.0abd799dbbf21818470fb12bb1e5c13c?rik=ThQXOb08EVjMqg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-aSt38YHzfwo%2fUCJWyo9Bb7I%2fAAAAAAAAGwk%2fYib8ZYta0uQ%2fs1600%2fnissan-skyline-r34-gtr.jpg&ehk=n6nzqOi2%2bWd%2fSgJd1LKmdQdlbVZsKHLdUOvmbMiPjto%3d&risl=&pid=ImgRaw&r=0" width="800" height="400"></div>
+		<div><img src="https://i.pinimg.com/736x/bc/12/b8/bc12b8ad7b3f0e107de3688f67b2840d--david-keith-mitsubishi-eclipse.jpg" width="800" height="400"></div>
+		<div><img src="https://www.autonocion.com/wp-content/uploads/2020/03/Honda-NSX-NA1-por-Liberty-Walk-12.jpeg" width="800" height="400"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script>
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:5,
+			autoplay:true,
+			autoplayTimeout:900,
+			autoplayHoverPause:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:3
+				},
+				1200:{
+					items:4
+				}
+			}
+		})
+	</script>
+</body>
+</html>
